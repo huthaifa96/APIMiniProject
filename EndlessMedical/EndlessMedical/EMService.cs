@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EndlessMedical.HTTPManager;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,17 @@ namespace EndlessMedical
      * info just like in the example.
      * 
      */
+    
     class EMService
     {
+        public EMCallManager EMCallManager { get; set; } = new EMCallManager();
+
+        public string SessionID { get; set; }
+
+        public EMService()
+        {
+            SessionID = EMCallManager.GetSessionID();
+        }
+
     }
 }
