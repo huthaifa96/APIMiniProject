@@ -68,13 +68,13 @@
   <ItemGroup>
     <Compile Include="EMConfigReader.cs" />
     <Compile Include="EMService.cs" />
+    <Compile Include="EMServices\DataHandling\EMDataTransferObject.cs" />
+    <Compile Include="EMServices\DataHandling\EMDiseasesModel.cs" />
     <Compile Include="EMServices\HTTPManager\EMCallManager.cs" />
     <Compile Include="Tests\EMTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EMServices\DataHandling\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Tests\app.config" />
