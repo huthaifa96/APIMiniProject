@@ -1,4 +1,5 @@
-﻿using EndlessMedical.HTTPManager;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,25 +8,27 @@ using System.Threading.Tasks;
 
 namespace EndlessMedical
 {
-    /* so we'll have an object that calls and stores reference key,
-     * will also need a property in this class to store it.
-     * will then need an object/methods to call and store symotoms and results
-     * prehaps an object for both.
-     * we might want to create a template class to be used to store the returned
-     * info just like in the example.
-     * 
-     */
-    
+        
     class EMService
     {
         public EMCallManager EMCallManager { get; set; } = new EMCallManager();
 
-        public string SessionID { get; set; }
+        public string Results { get; set; }
+
+        public JObject Json_Results { get; set; }
 
         public EMService()
-        {
-            SessionID = EMCallManager.GetSessionID();
+        {                        
         }
+
+        public void GetResults()
+        {
+            Results = EMCallManager.GetResults();
+            Json_Results = JsonConvert.DeserializeObject<JObject>(Results);
+        }
+
+
+
 
     }
 }
