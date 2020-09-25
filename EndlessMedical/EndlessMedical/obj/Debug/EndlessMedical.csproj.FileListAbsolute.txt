@@ -17,3 +17,29 @@ C:\GitHub\SpartaGlobalVinay\Api Mini-Project\EndlessMedical\EndlessMedical\obj\D
 C:\GitHub\SpartaGlobalVinay\Api Mini-Project\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.csproj.CopyComplete
 C:\GitHub\SpartaGlobalVinay\Api Mini-Project\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.dll
 C:\GitHub\SpartaGlobalVinay\Api Mini-Project\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.pdb
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\NUnit3.TestAdapter.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\NUnit3.TestAdapter.pdb
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\nunit.engine.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\nunit.engine.api.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\nunit.engine.core.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\EndlessMedical.dll.config
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\EndlessMedical.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\EndlessMedical.pdb
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Newtonsoft.Json.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\nunit.framework.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\RestSharp.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\Newtonsoft.Json.xml
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\nunit.framework.pdb
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\nunit.framework.xml
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\bin\Debug\RestSharp.xml
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.csprojAssemblyReference.cache
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.csproj.CoreCompileInputs.cache
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.csproj.CopyComplete
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.dll
+C:\GitHub\APIMiniProject\EndlessMedical\EndlessMedical\obj\Debug\EndlessMedical.pdb
