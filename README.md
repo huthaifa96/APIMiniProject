@@ -12,7 +12,7 @@ The aim of this project is to create a test framework for a medical service. By 
 
 ### Sprint 1
 
-![Sprint 1 Project Board](https://raw.githubusercontent.com/huthaifa96/APIMiniProject/master/Images/Sprint1.PNG?token=AQQZBXZ4QQFZC2J3NL5EJ627OEL4U)
+![Sprint 1 Project Board](https://github.com/huthaifa96/APIMiniProject/blob/master/Images/Sprint1.PNG)
 
 By the end of this sprint, I aim to find a number of free API's and choose the API most appropriate for this project.
 
@@ -32,7 +32,7 @@ The search took longer than expected as we struggled to find a free API and some
 
 ### Sprint 2
 
-![Sprint 2 Project Board](https://raw.githubusercontent.com/huthaifa96/APIMiniProject/master/Images/Sprint2.PNG?token=AQQZBX24OF7OXYMYYHSYOES7OEMA6)
+![Sprint 2 Project Board](https://github.com/huthaifa96/APIMiniProject/blob/master/Images/Sprint2.PNG)
 
 The aim of this sprint, is to complete the project so completing all the remaining user stories.
 
@@ -54,7 +54,7 @@ Not all the tasks could be completed in this sprint and this was mainly down to 
 
 ### Sprint 3
 
-![Sprint 3 Project Board](https://raw.githubusercontent.com/huthaifa96/APIMiniProject/master/Images/Sprint3.PNG?token=AQQZBXZAUWVCHEIZC5QQZT27OEMFO)
+![Sprint 3 Project Board](https://github.com/huthaifa96/APIMiniProject/blob/master/Images/Sprint3.PNG)
 
 The aim of this sprint is to complete the remaining user stories from sprint two.
 
@@ -82,5 +82,4 @@ We also tried planning out all the tests before having a solid understanding of 
 
 
 
-![Project Board](https://raw.githubusercontent.com/huthaifa96/APIMiniProject/master/Images/FinalProjectBoard.PNG?token=AQQZBX6ZRXRKICYGVNK3TU27OEMKC)
-
+![Project Board](https://github.com/huthaifa96/APIMiniProject/blob/master/Images/FinalProjectBoard.PNG)
