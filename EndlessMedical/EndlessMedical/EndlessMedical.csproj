@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="EMConfigReader.cs" />
     <Compile Include="EMService.cs" />
+    <Compile Include="EMServices\DataHandling\EMDiseasesModelTwo.cs" />
     <Compile Include="EMServices\DataHandling\EMDataTransferObject.cs" />
     <Compile Include="EMServices\DataHandling\EMDiseasesModel.cs" />
     <Compile Include="EMServices\HTTPManager\EMCallManager.cs" />

@@ -15,7 +15,7 @@ namespace EndlessMedical
         public static readonly string AcceptTnC = ConfigurationManager.AppSettings["accept_terms_and_conditions_url_mod"];
         public static readonly string TnCStetmentis = ConfigurationManager.AppSettings["include_tnc_statement_url_mod"];
         public static readonly string TnCStatement = ConfigurationManager.AppSettings["tnc_acceptance_statement_url_mod"];
-        public static readonly string UpdateFeatures = ConfigurationManager.AppSettings["updatefeatures_url_mod"];
+        public static readonly string UpdateFeatures = ConfigurationManager.AppSettings["update_features_url_mod"];
         public static readonly string SessionIDis = ConfigurationManager.AppSettings["sessionID_url_mod"];
         public static readonly string FeatureNameis = ConfigurationManager.AppSettings["feature_name_url_mod"];
         public static readonly string FeatureValueis = ConfigurationManager.AppSettings["feature_value_url_mod"];
