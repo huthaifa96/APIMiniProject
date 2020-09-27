@@ -6,7 +6,7 @@ The aim of this project is to create a test framework for a medical service. By 
 
 ## Class Diagram
 
-![Class Diagram](https://raw.githubusercontent.com/huthaifa96/APIMiniProject/master/Images/ClassDiagram.PNG?token=AQQZBXYGHYU6SZ5SXIMZQSS7OEMSM)
+![Class Diagram](https://github.com/huthaifa96/APIMiniProject/blob/master/Images/ClassDiagram.PNG)
 
 ##  Sprint Breakdowns
 
