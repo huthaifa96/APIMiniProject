@@ -72,11 +72,13 @@
     <Compile Include="EMServices\DataHandling\EMDataTransferObject.cs" />
     <Compile Include="EMServices\DataHandling\EMDiseasesModel.cs" />
     <Compile Include="EMServices\HTTPManager\EMCallManager.cs" />
-    <Compile Include="Tests\EMTests.cs" />
+    <Compile Include="Tests\EMJObjectTests.cs" />
+    <Compile Include="Tests\EMModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Tests\ClassDiagram.cd" />
     <None Include="packages.config" />
     <None Include="Tests\app.config" />
   </ItemGroup>

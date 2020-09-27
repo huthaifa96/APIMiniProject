@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace EndlessMedical
 {
-    public class EMTests
+    public class EMJObjectTests
     {
         private EMService _EMService = new EMService();
 
@@ -33,7 +33,7 @@ namespace EndlessMedical
             string[] value = { "3" };
             _EMService.EMCallManager.AddFeatures(names, value);
             _EMService.GetResults();
-            Assert.That(_EMService.EMCallManager.Json_Features["status"].ToString(), Is.EqualTo("ok"));
+            Assert.That(_EMService.Json_Results["status"].ToString(), Is.EqualTo("ok"));
         }
 
         [Test]
@@ -43,7 +43,7 @@ namespace EndlessMedical
             string[] value = { "119" };
             _EMService.EMCallManager.AddFeatures(names, value);
             _EMService.GetResults();
-            Assert.That(_EMService.EMDataTransferObject.EMDiseasesModelTwo.Diseases[0].ToString, Is.EqualTo("{\r\n  \"Irritable bowel syndrome\": \"0.4125\"\r\n}"));
+            Assert.That(_EMService.Json_Results.ToString(), Does.Contain("Irritable bowel syndrome\": \"0.4125"));
         }
 
         [Test]
@@ -53,7 +53,7 @@ namespace EndlessMedical
             string[] value = { "3", "3", "3", "3", "3", "4"};
             _EMService.EMCallManager.AddFeatures(names, value);
             _EMService.GetResults();
-            Assert.That(_EMService.EMDataTransferObject.EMDiseasesModelTwo.Diseases[0].ToString, Is.EqualTo("{\r\n  \"Viral pharyngitis (etiology usually rhinovirus, coronavirus, adenovirus, parainfluenza)\": \"0.778125\"\r\n}"));
+            Assert.That(_EMService.Json_Results.ToString(), Does.Contain("Viral pharyngitis (etiology usually rhinovirus, coronavirus, adenovirus, parainfluenza)\": \"0.778125\""));
         }
 
 

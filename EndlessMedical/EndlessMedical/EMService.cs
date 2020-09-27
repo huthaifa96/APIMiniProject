@@ -15,8 +15,10 @@ namespace EndlessMedical
         public EMDataTransferObject EMDataTransferObject { get; set; } = new EMDataTransferObject();
         public string Results { get; set; }
         public JObject Json_Results { get; set; }
+        
         public EMService()
-        {                        
+        {     
+            
         }
 
         public void GetResults()

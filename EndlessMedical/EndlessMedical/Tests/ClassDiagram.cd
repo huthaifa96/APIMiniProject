@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EndlessMedical.EMService">
+    <Position X="1.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAAAAAAAAAAACCAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>EMService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EMCallManager" />
+      <Property Name="EMDataTransferObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EndlessMedical.EMCallManager">
+    <Position X="5.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAEAYAAAAAAAAAACAIAAAAgAAIAAAAAA=</HashCode>
+      <FileName>EMServices\HTTPManager\EMCallManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndlessMedical.EMDataTransferObject">
+    <Position X="1.25" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>EMServices\DataHandling\EMDataTransferObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EMDiseasesModel" />
+      <Property Name="EMDiseasesModelTwo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EndlessMedical.EMDiseasesModel">
+    <Position X="5.25" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMServices\DataHandling\EMDiseasesModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndlessMedical.EMDiseasesModelTwo">
+    <Position X="5.25" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMServices\DataHandling\EMDiseasesModelTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
